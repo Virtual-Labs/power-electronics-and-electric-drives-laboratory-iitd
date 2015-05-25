@@ -1,0 +1,8 @@
+1  -- This is the total number of experiments
+"Expt 1 a - FUll Wave Rectifier","Expt1aFullWaverectifier.psimsch", "Expt1aFullWaverectifier.png"
+5  -- This is the total number of variables
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "Range_From", "Range_To", "Data_Type"
+"Resistance in Ohms", "R1","12",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V1","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F1", "50", "Range_From", "Range_To", "Data_Type"
+"Inductance in Henry", "L1", "5e-03", "Range_From", "Range_To", "Data_Type"

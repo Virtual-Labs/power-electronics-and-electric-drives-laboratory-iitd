@@ -1,0 +1,12 @@
+"2a : 3 Phase Rectifier With Source Inductance","2a3PR.psimsch", "2a3PR.png"
+9
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V1","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F1", "50", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V2","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F2", "30", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V3","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F3", "70", "Range_From", "Range_To", "Data_Type"
+"Resistance in Ohms", "R1","12",  "Range_From", "Range_To", "Data_Type"
+"Inductance in Henry", "L1", "5e-03", "Range_From", "Range_To", "Data_Type"
+**********End of Expt ********************************

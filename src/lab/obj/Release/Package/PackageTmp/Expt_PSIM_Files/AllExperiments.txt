@@ -1,0 +1,31 @@
+3
+"1a : Full Wave Rectifier","1aFWR.psimsch", "1aFWR.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V1","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F1", "50", "Range_From", "Range_To", "Data_Type"
+"DC Voltage Source in volts", "VDC1", "12", "Range_From", "Range_To", "Data_Type"
+"Resistance in Ohms", "R1","12",  "Range_From", "Range_To", "Data_Type"
+"Inductance in Henry", "L1", "5e-03", "Range_From", "Range_To", "Data_Type"
+**********End of Expt ********************************
+"1b : Full Wave Rectifier With Source Inductance","1bFWR.psimsch", "1bFWR.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V1","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F1", "50", "Range_From", "Range_To", "Data_Type"
+"Resistance in Ohms", "R1","12",  "Range_From", "Range_To", "Data_Type"
+"Inductance in Henry", "L1", "5e-03", "Range_From", "Range_To", "Data_Type"
+"Source Inductance in Henry", "L2", "5e-03", "Range_From", "Range_To", "Data_Type"
+**********End of Expt ********************************
+"2a : 3 Phase Rectifier With Source Inductance","2a3PR.psimsch", "2a3PR.png"
+9
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V1","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F1", "50", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V2","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F2", "30", "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Peak Voltage in volts", "V3","350",  "Range_From", "Range_To", "Data_Type"
+"Sinusiodal Voltage Frequency", "F3", "70", "Range_From", "Range_To", "Data_Type"
+"Resistance in Ohms", "R1","12",  "Range_From", "Range_To", "Data_Type"
+"Inductance in Henry", "L1", "5e-03", "Range_From", "Range_To", "Data_Type"
+**********End of Expt ********************************

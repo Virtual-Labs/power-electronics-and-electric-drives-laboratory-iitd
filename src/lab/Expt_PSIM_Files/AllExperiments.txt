@@ -1,0 +1,261 @@
+18
+"1a : Full Wave Rectifier","1aFWR.psimsch", "1aFWR.png"
+7
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "0", ".2", "Decimal"
+"Sinusiodal Peak Voltage in volts", "V1","350", "140", "400", "Integer"
+"Sinusiodal Voltage Frequency", "F1", "50", "5", "100", "Integer"
+"Resistance in Ohms", "R1","12",  "1", "1000", "Decimal"
+"Inductance in Henry", "L1", "5e-03", "1e-06", "10e-03", "Exponent"
+"DC Voltage Source in volts", "VDC1", "12", "10", "220", "Integer"
+"Firing Angle in degrees", "T1", "30", "0", "360", "Integer"
+2
+"Current I1","I1","Graph 1"
+"Voltage VP1","VP1","Graph 1"
+**********End of Expt ********************************
+"1b : Full Wave Rectifier With Source Inductance","1bFWR.psimsch", "1bFWR.png"
+10
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "0", ".2", "Decimal"
+"Sinusiodal Peak Voltage in volts", "V1","350", "140", "400", "Integer"
+"Sinusiodal Voltage Frequency", "F1", "50", "5", "100", "Integer"
+"Resistance in Ohms", "R1","12",  "1", "1000", "Decimal"
+"Inductance in Henry", "L1", "5e-03", "1e-06", "10e-03", "Exponent"
+"Source Inductance in Henry", "L2", "5e-03", "1e-06", "10e-03", "Exponent"
+"Firing Angle T1", "T1", "30", "0", "360", "Firing Angle"
+"Firing Angle T2", "T2", "210", "0", "360", "Firing Angle"
+"Firing Angle T3", "T3", "210", "0", "360", "Firing Angle"
+"Firing Angle T4", "T4", "30", "0", "360", "Firing Angle"
+2
+"Current I1","I1","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+**********End of Expt ********************************
+"2a : 3 Phase Rectifier With Source Inductance","2a3PR.psimsch", "2a3PR.png"
+11
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "0", "0.2", "Decimal"
+"Sinusiodal Peak Voltage in volts", "V","565", "140", "600", "Integer"
+"Sinusiodal Voltage Frequency", "F", "50", "50", "100", "Integer"
+"Resistance in Ohms", "R1","10",  "1", "100", "Decimal"
+"Inductance in Henry", "L1", "1e-06", "1e-06", "10e-03", "Exponent"
+"Firing Angle T1", "T1", "60", "0", "360", "Firing Angle"
+"Firing Angle T2", "T2", "120", "0", "360", "Firing Angle"
+"Firing Angle T3", "T3", "180", "0", "360", "Firing Angle"
+"Firing Angle T4", "T4", "240", "0", "360", "Firing Angle"
+"Firing Angle T5", "T5", "300", "0", "360", "Firing Angle"
+"Firing Angle T6", "T6", "120", "0", "360", "Firing Angle"
+5
+"Current I1","I1","Graph 1"
+"Current I2","I2","Graph 2"
+"Current I3","I3","Graph 3"
+"Current I4","I4","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+**********End of Expt ********************************
+"3a : Buck Converter","3aBuck.psimsch","3aBuck.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.001", "0", ".002","Decimal"
+"DC Voltage source voltage in volts", "Vin","10", "1", "100", "Integer"
+"Sawtooth-wave voltage source in volts","Vsaw","1", "1", "500", "Integer"
+"Sawtooth Frequency", "F1", "4000", "5", "5000", "Integer"
+"Control Voltage source in volts","Vc","0.8","0","1","Decimal"
+"Inductance in Henry","L1","1e-03","1e-04","1e-02","Exponent"
+5
+"Current IC1","IC1","Graph 1"
+"Current ID1","ID1","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+"Current IL1","IL1","Graph 1"
+"Current Iload","Iload","Graph 1"
+**********End of Expt ********************************
+"3b : Boost Converter","3bBoost.psimsch","3bBoost.png"
+7
+"Total Time of Simulation in seconds", "Simulation Duration", "0.001", "0", "1", "Decimal"
+"DC Voltage source voltage in volts", "Vin","10", "1", "100", "Integer"
+"Sawtooth-wave voltage source in volts","Vsaw","1", "1", "500", "Integer"
+"Sawtooth Frequency", "F1", "4000", "5", "5000", "Integer"
+"Control Voltage source in volts","Vc","0.8","0","1","Decimal"
+"Inductance in Henry","L1","1e-03","1e-04","1e-02","Exponent"
+"Capacitance in Farad","C1","100e-06","10e-06","1e-03","Exponent"
+3
+"Current I1","I1","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+"Voltage VL1","VL1","Graph 3"
+**********End of Expt ********************************
+"3c : Buck Boost Converter","3cBuckBoost.psimsch","3cBuckBoost.png"
+8
+"Total Time of Simulation in seconds", "Simulation Duration", "0.02", "0", "1", "Decimal"
+"DC Voltage source in volts", "Vin","10", "1", "100", "Integer"
+"Sawtooth-wave voltage source in volts","Vsaw","1", "1", "500", "Integer"
+"Sawtooth Frequency", "F1", "4000", "5", "5000", "Integer"
+"Control Voltage source in volts","Vc","0.8","0","1","Decimal"
+"Inductance in Henry","L1","1e-03","1e-04","1e-02","Exponent"
+"Load Resistance","RLoad","12","10","100","Integer"
+"Capacitance in Farad","C1","100e-06","10e-06","1e-03","Exponent"
+3
+"Current I1","I1","Graph 1"
+"Current I2","I2","Graph 2"
+"Voltage VP1","VP1","Graph 3"
+**********End of Expt ********************************
+"4a : Single Phase VSI With Square Wave PWM","4aDCACSqWavePWM.psimsch","4aDCACSqWavePWM.png"
+5
+"Total Time of Simulation in seconds", "Simulation Duration", "0.2", "0", "1", "Decimal"
+"Input Voltage in volts", "Vdc","230", "1", "500", "Integer"
+"Resistance in Ohms", "Ro","1", "1", "500", "Integer"
+"Inductance in Henry","Lo","1e-15","1e-20","1e-02","Exponent"
+"Output Frequency -frequency of Vgate", "fo", "50", "5", "5000", "Integer"
+6
+"Voltage Vo","vo","Graph 1"
+"Current Io","io","Graph 1"
+"Voltage vT1,VT2","vT1,vT2","Graph 2"
+"Voltage Vo_rms","Vo_rms","Graph 2"
+"Current iT1,iT2","iT1,iT2","Graph 3"
+"Current Io_rms","Io_rms","Graph 3"
+**********End of Expt ********************************
+"4b : Single Phase VSI with Single PWM","4bDCACSINGLE PWM.psimsch","4bDCACSINGLE PWM.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.06", "0", "1", "Decimal"
+"Peak Voltage in volts", "Vdc","230", "1", "500", "Integer"
+"Resistance in Ohms", "Ro","1", "1", "500", "Integer"
+"Inductance in Henry","Lo","15e-03","1e-04","1e01","Exponent"
+"Output Frequency -frequency of Vcar", "fo", "50", "5", "5000", "Integer"
+"Magnitude of Control Voltage Vc in volts", "Vc","0.4", "0", "500", "Decimal"
+9
+"Voltage Vo","vo","Graph 1"
+"Voltage Io","io","Graph 2"
+"Voltage Vo_rms","Vo_rms","Graph 2"
+"Current Io_rms","Io_rms","Graph 3"
+"Carrier Voltage v_car1","V_car1","Graph 2"
+"Control Voltage vc1","Vc1","Graph 2"
+"Voltage vT1,VT2","vT1,vT2","Graph 2"
+"Current iT1,iT2","iT1,iT2","Graph 3"
+"Gate Signals for switches T1 & T2 Vg1","vg1","Graph 3"
+**********End of Expt ********************************
+"4c : Single Phase VSI with Sine-Triangular PWM","4cDCACSPWM.psimsch","4cDCACSPWM.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.06", "0", "1", "Decimal"
+"Input DC Voltage in volts", "Vdc","230", "1", "500", "Integer"
+"Resistance in Ohms", "Ro","1", "1", "500", "Integer"
+"Inductance in Henry","Lo","15e-03","1e-04","15e-01","Exponent"
+"Output Frequency (frequency of control sinusoidal voltage vc)", "fo", "50", "5", "5000", "Integer"
+"Magnitude of Control Voltage Vc in volts", "vc","0.8", "0", "500", "Decimal"
+9
+"Voltage Vo","vo","Graph 1"
+"Voltage Io","io","Graph 2"
+"Voltage Vo_rms","Vo_rms","Graph 2"
+"Current Io_rms","Io_rms","Graph 3"
+"Carrier Voltage v_car1","V_car1","Graph 2"
+"Control Voltage vc1","Vc1","Graph 2"
+"Gate Signals for switches T1 & T2 Vg1","vg1","Graph 3"
+"Voltage vT1,VT2","vT1,vT2","Graph 2"
+"Current iT1,iT2","iT1,iT2","Graph 3"
+**********End of Expt ********************************
+"5a : DC motor starting and braking","5aDCmotorstartingandbraking.psimsch","5aDCmotorstartingandbraking.png"
+4
+"Total Time of Simulation in seconds", "Simulation Duration", "0.3", "0", "1", "Decimal"
+"Voltage Vdc", "Vdc","120", "1", "500", "Integer"
+"Resistance in Ohms", "Rext","12", "1", "500", "Integer"
+"Torque", "T","1", "1", "500", "Integer"
+4
+"Current I1","I1","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+"Voltage Tem_DC1","Tem_DC1","Graph 2"
+"speed","speed","Graph 3"
+**********End of Expt ********************************
+"5b : DC motor starting and braking - dynamic","5bDCmotorstartingandbraking_dynamic.psimsch","5bDCmotorstartingandbraking_dynamic.png"
+4
+"Total Time of Simulation in seconds", "Simulation Duration", "0.3", "0", "1", "Decimal"
+"Voltage Vdc", "Vdc","120", "1", "500", "Integer"
+"Resistance in Ohms", "Rbrak","10", "1", "500", "Integer"
+"Torque", "T","1", "1", "500", "Integer"
+4
+"Current Ia","Ia","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+"Voltage Tem_DC1","Tem_DC1","Graph 2"
+"speed","speed","Graph 3"
+**********End of Expt ********************************
+"5c : DC motor starting and braking - dynamic","5cDCmotorstartingandbraking_plugging.psimsch","5cDCmotorstartingandbraking_plugging.png"
+5
+"Total Time of Simulation in seconds", "Simulation Duration", "0.3", "0", "1", "Decimal"
+"Voltage Vdc", "Vdc","120", "1", "500", "Integer"
+"Voltage Vrev", "Vrev","100", "1", "500", "Integer"
+"Resistance in Ohms", "Rext","12", "1", "500", "Integer"
+"Torque", "T","1", "1", "500", "Integer"
+4
+"Current Ia","Ia","Graph 1"
+"Voltage VP1","VP1","Graph 2"
+"Voltage Tem_DC1","Tem_DC1","Graph 2"
+"speed","speed","Graph 3"
+**********End of Expt ********************************
+"6 : DC Motor Speed Control","6DCMotorSpeedcontrol.psimsch","6DCMotorSpeedcontrol.png"
+4
+"Total Time of Simulation in seconds", "Simulation Duration", "1", "0", "1", "Decimal"
+"Sinusiodal Peak Voltage in volts", "Vs","325", "1", "500", "Integer"
+"DC Voltage source in volts", "Vf","120", "1", "500", "Integer"
+"Inductance in Henry","Ls","2e-03","1e-04","1e-02","Exponent"
+5
+"Current Is","Is","Graph 1"
+"Current Ia","Ia","Graph 2"
+"Voltage Va","Va","Graph 3"
+"Voltage Tem_DC1","Tem_DC1","Graph 3"
+"Speed in rpm","Speed_rpm","Graph 3"
+**********End of Expt ********************************
+"7a : Induction Motor : Starting and Braking","7aInductionmotorDOL.psimsch","7aInductionmotorDOL.png"
+6
+"Total Time of Simulation in seconds", "Simulation Duration", "0.1", "0", "1", "Decimal"
+"Sinusiodal Peak Voltage in volts", "Va","556", "1", "600", "Integer"
+"Sinusiodal Peak Voltage in volts", "Vb","556", "1", "600", "Integer"
+"Sinusiodal Peak Voltage in volts", "Vc","556", "1", "600", "Integer"
+"DC Voltage source in volts", "Vf","120", "1", "500", "Integer"
+"Number of Poles","Pp","6","1","6","Exponent"
+5
+"Current Ia","Ia","Graph 1"
+"Current Ib","Ib","Graph 1"
+"Current Ic","Ic","Graph 1"
+"Voltage Vab","Vab","Graph 2"
+"Speed in rpm","speed","Graph 3"
+**********End of Expt ********************************
+"7b : Induction Motor : Starting and Braking","7bInductionmotorDOL.psimsch","7bInductionmotorDOL.png"
+3
+"Total Time of Simulation in seconds", "Simulation Duration", "0.1", "0", "1", "Decimal"
+"Firing Angle T1", "T1", "110", "-360", "360", "Firing Angle"
+"Torque T", "T", "1", "0", "20", "Integer"
+5
+"Current Ia","Ia","Graph 1"
+"Current Ib","Ib","Graph 1"
+"Current Ic","Ic","Graph 1"
+"Voltage Vab","Vab","Graph 2"
+"Speed in rpm","speed","Graph 3"
+**********End of Expt ********************************
+"7c : Induction Motor : Starting and Braking","7cInductionmotorDOL.psimsch","7cInductionmotorDOL.png"
+3
+"Total Time of Simulation in seconds", "Simulation Duration", "0.2", "0", "1", "Decimal"
+"Breaking Capacitance Value in Farad","C","100e-06","10e-06","1e-03","Exponent"
+"Torque T", "T", "1", "0", "20", "Integer"
+6
+"Current Ia","Ia","Graph 1"
+"Current Ib","Ib","Graph 1"
+"Current Ic","Ic","Graph 1"
+"Voltage Vc","Vc","Graph 2"
+"Voltage Vab","Vab","Graph 2"
+"Speed in rpm","speed","Graph 3"
+**********End of Expt ********************************
+"8 : V/F Control of VSI Fed Three-Phase Induction Motor","Exp8_2_large.psimsch","8threephasevoltagesourceinverter.png"
+2
+"Total Time of Simulation in seconds", "Simulation Duration", "0.1", "0", "1", "Decimal"
+"Input Sinusoidal Frequency F", "F","33.33", "1", "100", "Decimal"
+4
+"Output rms voltage VLL_rms (V)","VLL_RMS","Graph 1"
+"Output line current io (A)","io","Graph 1"
+"Line-Line output voltage vRY (V)","v_RY","Graph 2"
+"Speed Nr (rpm)","Speed_rpm","Graph 3"
+**********End of Expt ********************************
+"9 : Rotor resistance control of wound rotor induction motor","9resistancecontrolofinductionmotor.psimsch","9resistancecontrolofinductionmotor.png"
+3
+"Total Time of Simulation in seconds", "Simulation Duration", "0.1", "0", "1", "Decimal"
+"Torque T", "T", "1", "0", "20", "Integer"
+"Duty Cycle", "DC", "0.65", "0", "1", "Decimal"
+7
+"Current Ia","Ia","Graph 1"
+"Current Ib","Ib","Graph 1"
+"Current Ic","Ic","Graph 1"
+"Current Ir","Ir","Graph 1"
+"Current Ichopper","Ichopper","Graph 1"
+"Voltage Vab","Vab","Graph 2"
+"Speed in rpm","speed","Graph 3"
+**********End of Expt ********************************

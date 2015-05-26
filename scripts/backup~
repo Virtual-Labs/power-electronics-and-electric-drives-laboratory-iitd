@@ -1,8 +1,8 @@
 #/bin/bash
-# backup Script for Power Electronics and Electric Drives Laboratory
+# backup Script for Computer Programming Lab
 
 # backup Script takes the backup of the data used by the lab.
-# Since there is no data being used by Power Electronics and Electric Drives Laboratory, 
+# Since there is no data being used by Computer Programming Lab, 
 # the script does nothing. 
 
 # Usage of the script
